@@ -1,0 +1,47 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id         String @id @default(uuid())
+  name       String
+  github_id  Int
+  avatar_url String
+  login      String
+
+
+  @@map("users")
+}
+
+model ProfessionalType {
+  id          String   @id @default(uuid())
+  description String
+  situation   Boolean  @default(true)
+  updated_at  DateTime @default(now())
+  created_at  DateTime @default(now())
+
+  professionals Professional[]
+  @@map("professionalTypes")
+}
+
+model Professional {
+  id         String   @id @default(uuid())
+  name       String
+  telephone  String
+  email      String
+  situation  Boolean  @default(true)
+  updated_at DateTime @default(now())
+  created_at DateTime @default(now())
+
+
+
+  professional_types ProfessionalType @relation(fields: [professional_type_id], references: [id])
+
+  professional_type_id String
+  @@map("professionals")
+}

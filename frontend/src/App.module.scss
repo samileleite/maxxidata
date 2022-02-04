@@ -1,0 +1,74 @@
+// .contentWrapper {
+//     max-width: 1200px;
+//     height: 100vh;
+//     margin: 0 auto;
+
+//     display: grid;
+//     grid-template-columns: 1fr 453px;
+//     column-gap: 120px;
+//     position: relative;
+//     background: yellow;
+
+    
+// }
+
+// .listInput {
+//     background: transparent;
+//     margin-top: 20px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space;
+
+//     .input {
+//         border-radius: 8px;
+//         background: #232129;
+//         border-color: transparent;
+//         color: #f6f4fa;
+//         width: 340px;
+//         height: 50px;
+//         padding: 20px;
+//     }
+
+//     .inputLast {
+//         border-radius: 8px;
+//         margin-top: 10px;
+//         background: #232129;
+//         border-color: transparent;
+//         color: #f6f4fa;
+//         width: 340px;
+//         height: 50px;
+//         padding: 20px;
+//     }
+// }
+
+// .footerButton{
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     align-items: center;
+//     justify-content: center;
+//     padding: 20px 0;
+
+// }
+
+// .buttonAction {
+//     padding: 10px;
+//     margin: 0 10px;
+//     margin-top: 20px;
+//     background: #FF9000;
+//     width: 150px;
+//     height: 56px;
+//     color: #312E38;
+//     font-size: 14px;
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     text-decoration: none;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     &:hover {
+//         filter: brightness(0.9);
+//     }
+// }

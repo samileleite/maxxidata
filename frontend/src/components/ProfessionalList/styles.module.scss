@@ -1,0 +1,93 @@
+.ProfessionalListWrapper {
+    width: 100%;
+    background: #312E38;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        font-size: 16px;
+        color: #f6f4fa;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .professionalBox{
+        background: transparent;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        background: #232129;
+        border-color: transparent;
+        width: 340px;
+        height: min-content;
+        padding: 20px;
+
+        .professionalName{
+            font-size: 16px;
+            padding-left: 5px;
+            color: #f6f4fa;
+            text-align: left;
+            // background: red;
+        }
+
+        .professionalType {
+            font-size: 16px;
+            padding-left: 5px;
+            color: #f6f4fa;
+            text-align: left;
+        }
+        .professionalEmail{
+            font-size: 14px;
+            padding-top: 28px;
+            padding-left: 5px;
+            color: #f6f4fa;
+            text-align: left;
+        }
+
+        .professionalTelephone {
+            font-size: 14px;
+            padding-left: 5px;
+            color: #f6f4fa;
+            text-align: left;
+        }
+
+        .professionalSituation{
+            font-size: 12px;
+            padding: 5px;
+            color: #f6f4fa;
+            text-align: right;
+        }
+    }
+
+    .buttonAction {
+        padding: 10px;
+        margin: 0 10px;
+        margin-top: 20px;
+        background: #FF9000;
+        width: 150px;
+        height: 56px;
+        color: #312E38;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 2px;
+        
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }
+    
+
+    
+}
